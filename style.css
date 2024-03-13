@@ -7,7 +7,6 @@
 body{
     background-image: url("https://sampotv360.ru/wp-content/uploads/2023/11/high-angle-shot-of-the-trees-in-the-forest-covered-with-snow-during-the-snowflake-2048x1357.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -23,9 +22,10 @@ body{
     opacity: 0.8;
     z-index: 1000;
     width: 70vw;
-    height: 50vh;
+    height: 55vh;
     align-items: center;
     padding: 20px;
+    border-radius: 10px;
 
 }
 
@@ -68,7 +68,14 @@ body{
     color:rgb(243, 247, 15);
     text-shadow: 1px 1px 10px #e17d7d;
     font-size: 40px;
+    @media(max-width: 700px){
+        font-size: 20px;
+    };
+    @media(min-width: 500px) and (max-width: 900px){
+        font-size: 30px;
+    };
 }
+
 
 .temp{
     margin-right: 20px;
@@ -89,6 +96,12 @@ body{
     justify-content: space-around;
     color: aliceblue;
     font-size: 40px;
+    @media(max-width: 700px){
+        font-size: 20px;
+    };
+    @media(min-width: 500px) and (max-width: 900px){
+        font-size: 30px;
+    };
     text-shadow: 1px 1px 6px #F2F613;
 }
 
