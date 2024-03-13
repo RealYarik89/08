@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://sampotv360.ru/wp-content/uploads/2023/11/high-angle-shot-of-the-trees-in-the-forest-covered-with-snow-during-the-snowflake-2048x1357.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(157, 154, 154);
+    opacity: 0.8;
+    z-index: 1000;
+    width: 70vw;
+    height: 50vh;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.button{
+    background-color: rgb(6, 202, 65);
+    border-radius: 5px;
+    margin: 10px 0;
+    color: aliceblue;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 12px 20px -2px rgb(12, 12, 12);
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(4, 80, 17);
+}
+
+.city{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-block-weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp, .discription{
+    color:rgb(243, 247, 15);
+    text-shadow: 1px 1px 10px #e17d7d;
+    font-size: 40px;
+}
+
+.temp{
+    margin-right: 20px;
+}
+
+.icon img{
+    width: 130px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.windy{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: 1px 1px 6px #F2F613;
+}
+
+.speed{
+    margin-right: 10px;
+}
+
+.humidity{
+    margin-left: 10px;  
+}
