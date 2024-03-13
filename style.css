@@ -8,6 +8,7 @@ body{
     background-image: url("https://sampotv360.ru/wp-content/uploads/2023/11/high-angle-shot-of-the-trees-in-the-forest-covered-with-snow-during-the-snowflake-2048x1357.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
